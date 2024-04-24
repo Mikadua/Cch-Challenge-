@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,700&display=swap");
+@font-face {
+  font-family: "Epilogue";
+  src: url(./fonts/Epilogue-Bold.ttf);
+}
+body {
+  background: hsl(0, 0%, 98%);
+}
+header {
+  display: flex;
+}
+header div {
+  padding-right: 20%;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+}
+aside {
+  padding-top: 20px;
+  padding-inline: 20px;
+}
+nav ul {
+  display: flex;
+  margin: 25px;
+}
+dl {
+  margin: 23px;
+  height: 5px;
+  width: 110%;
+  color: black;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+ul {
+  margin: 25px;
+  padding: 10px;
+  border: 0;
+}
+dt {
+  height: 23px;
+  height: 7px;
+  padding: 2px;
+  align-items: center;
+  text-align: center;
+  text-align: justify;
+  size: 10px;
+}
+div ul {
+  float: right;
+  display: flex;
+  padding-right: 100px;
+}
+div button {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: hsl(0, 0%, 41%);
+  background-color: hsl(0, 0%, 98%);
+  font-size: 12px;
+  border-radius: 12px;
+  border-color: hsl(0, 0%, 41%);
+  padding-inline: 25px;
+  padding-block: 15px;
+  padding-left: 12px;
+}
+a {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+}
+
+/* main */
+figure {
+  float: right;
+  padding-inline: 80px;
+}
+h1 {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 75px;
+  padding-inline: 150px;
+  padding-block: 5px;
+}
+p {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
+  padding-inline: 150px;
+}
+
+button {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 8%);
+  font-size: 18px;
+  border-radius: 12px;
+  padding-inline: 25px;
+  padding-block: 15px;
+}
+
+section {
+  padding-left: 150px;
+}
+
+section img {
+  margin: 15px;
+}
