@@ -112,3 +112,81 @@ section {
 section img {
   margin: 15px;
 }
+/* Media Queries */
+
+/* Pour les petits écrans comme les smartphones */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header div {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 40px;
+    padding-inline: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    padding-inline: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    padding-inline: 15px;
+    padding-block: 10px;
+  }
+
+  figure {
+    float: none;
+    padding-inline: 0;
+    text-align: center;
+  }
+
+  section {
+    padding-left: 20px;
+  }
+
+  section img {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+}
+
+/* Pour les tablettes */
+@media (min-width: 601px) and (max-width: 1024px) {
+  header div {
+    padding-right: 10%;
+  }
+
+  h1 {
+    font-size: 60px;
+    padding-inline: 50px;
+  }
+
+  p {
+    font-size: 16px;
+    padding-inline: 50px;
+  }
+
+  section {
+    padding-left: 50px;
+  }
+
+  section img {
+    margin: 10px;
+    max-width: 80%;
+  }
+}
